@@ -1,0 +1,3 @@
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+<p id='parg3'><strong>1-ΚΤΙΡΙΟ</strong></p><div id='div3' style='display:none;'>div3</div><div id='div4' style='display:block;'>div4</div>
+<script>$('p').click(function(){var pnum=$(this).attr('id').replace('parg','');var divn=document.getElementById('div'+pnum);if (divn!=null) {dstyle=divn.style.display;if (dstyle=='none') {divn.style.display='block';} else {divn.style.display='none';}}});</script>
