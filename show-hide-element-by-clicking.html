@@ -4,7 +4,7 @@
 <div id='div3' style='display:none;'>div3</div>
 <div id='div4' style='display:block;'>div4</div>
 <script>
-  jQuery('p').click(function(){
+  $('p').click(function(){
     var pnum=$(this).attr('id').replace('parg','');
     var divn=document.getElementById('div'+pnum);
     if (divn!=null) {
